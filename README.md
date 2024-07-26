@@ -103,8 +103,6 @@ php artisan serve
 
 Visit [http://localhost:8000](http://localhost:8000) in your browser to view the application.
 
-**_NOTE:_**  If you find difficulties and want me to setup for you, you can directly email me at erfan.siam98@gmail.com
-
 ## Project Completion
 
 This project is a work in progress. The following features are planned for future releases:
