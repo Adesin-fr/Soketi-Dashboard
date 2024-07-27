@@ -35,8 +35,8 @@ class App extends Model
     {
         self::creating(function ($app) {
             $app->id = uniqid();
-            $app->key = bin2hex(random_bytes(16));
-            $app->secret = bin2hex(random_bytes(32));
+            $app->key = bin2hex(random_bytes(20));
+            $app->secret = bin2hex(random_bytes(20));
         });
     }
 

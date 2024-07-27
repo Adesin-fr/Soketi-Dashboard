@@ -21,7 +21,7 @@ const props=defineProps(['apps'])
 
                     <Link class="primary-button" :href="route('apps.create')">+ Create New App</Link>
 
-                    <div class="flex flex-wrap mt-4">
+                    <div class="flex flex-wrap mt-4 gap-4">
                         <template v-for="app in apps">
                             <AppCard :app="app" />
                         </template>
